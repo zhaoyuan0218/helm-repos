@@ -2,19 +2,19 @@ apiVersion: v1
 entries:
   ingress:
   - apiVersion: v1
-    created: 2018-08-17T17:14:22.250978762+08:00
+    created: 2018-08-17T17:51:47.45221271+08:00
     description: global ingress
-    digest: 042e620f6477af6bdbdcceb7948de85befb4cb4cc2006ada83e105e89ecd5b9e
+    digest: 48fde1f138215f2db3032e269ed22e796682f058526d23b6935874907e662164
     name: ingress
     urls:
     - ingress-0.1.0.tgz
     version: 0.1.0
   secret:
   - apiVersion: v1
-    created: 2018-08-17T17:14:22.252708929+08:00
+    created: 2018-08-17T17:51:47.453319233+08:00
     digest: 5ecef9c99a07d3637f2289850138d6357a6bad48b4722aa9372664316af98952
     name: secret
     urls:
     - secret-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-17T17:14:22.248582974+08:00
+generated: 2018-08-17T17:51:47.449664+08:00
