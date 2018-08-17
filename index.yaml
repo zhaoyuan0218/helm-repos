@@ -1,23 +1,20 @@
 apiVersion: v1
 entries:
-  chart1:
+  ingress:
   - apiVersion: v1
-    appVersion: "1.0"
-    created: 2018-08-13T11:52:11.72603085+08:00
-    description: A Helm chart for Kubernetes
-    digest: c0084362b73321b786ac66e694cce6ac6ba72170aae36f8074d272c76a7d840f
-    name: chart1
+    created: 2018-08-17T17:14:22.250978762+08:00
+    description: global ingress
+    digest: 042e620f6477af6bdbdcceb7948de85befb4cb4cc2006ada83e105e89ecd5b9e
+    name: ingress
     urls:
-    - chart1-0.1.0.tgz
+    - ingress-0.1.0.tgz
     version: 0.1.0
-  chart2:
+  secret:
   - apiVersion: v1
-    appVersion: "1.0"
-    created: 2018-08-13T11:52:11.726658113+08:00
-    description: A Helm chart for Kubernetes
-    digest: b7eea9e00bd9bf82f2ce507a2a93b461428c55da2329a6ddaba6d216481b2e7f
-    name: chart2
+    created: 2018-08-17T17:14:22.252708929+08:00
+    digest: 5ecef9c99a07d3637f2289850138d6357a6bad48b4722aa9372664316af98952
+    name: secret
     urls:
-    - chart2-0.1.0.tgz
+    - secret-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-13T11:52:11.722475541+08:00
+generated: 2018-08-17T17:14:22.248582974+08:00
