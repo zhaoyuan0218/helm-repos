@@ -2,19 +2,28 @@ apiVersion: v1
 entries:
   ingress:
   - apiVersion: v1
-    created: 2018-08-17T17:51:47.45221271+08:00
+    created: 2018-08-20T10:04:44.746377693+08:00
     description: global ingress
     digest: 48fde1f138215f2db3032e269ed22e796682f058526d23b6935874907e662164
     name: ingress
     urls:
     - ingress-0.1.0.tgz
     version: 0.1.0
+  mysql:
+  - apiVersion: v1
+    created: 2018-08-20T10:04:44.74683814+08:00
+    description: KE Global mysql
+    digest: 5ab24077ea643a3835707e9d2c10ffb302d9dc746cb83f53a9687629a078797a
+    name: mysql
+    urls:
+    - mysql-0.1.0.tgz
+    version: 0.1.0
   secret:
   - apiVersion: v1
-    created: 2018-08-17T17:51:47.453319233+08:00
+    created: 2018-08-20T10:04:44.747697926+08:00
     digest: 5ecef9c99a07d3637f2289850138d6357a6bad48b4722aa9372664316af98952
     name: secret
     urls:
     - secret-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-17T17:51:47.449664+08:00
+generated: 2018-08-20T10:04:44.744151947+08:00
