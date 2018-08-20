@@ -2,25 +2,115 @@ apiVersion: v1
 entries:
   account:
   - apiVersion: v1
-    created: 2018-08-20T11:23:19.112738781+08:00
+    created: 2018-08-20T15:31:47.322840434+08:00
     description: KE Global account
     digest: 82516c60ca92b546950148777968345fafea7329714704d78e0943479b86f5cf
     name: account
     urls:
     - account-0.1.0.tgz
     version: 0.1.0
+  authgate:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.323777241+08:00
+    description: KE Region authgate
+    digest: 4b3027e3321f2c9a7e9d371f3e7e2b4c28c7ed8efc431586f84cb2f550b435ef
+    name: authgate
+    urls:
+    - authgate-0.1.0.tgz
+    version: 0.1.0
+  compass:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.324386665+08:00
+    description: KE Region compass
+    digest: 4547ff8cce05b12d0570f7fad698c170e7fc20508dfb49fcbe309e7ed818c096
+    name: compass
+    urls:
+    - compass-0.1.0.tgz
+    version: 0.1.0
+  gragate:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.326234256+08:00
+    description: KE Region gragate
+    digest: a22142ca649e048197e7c542ff4512517ecc53d67a1360b8935aa36c3c19b275
+    name: gragate
+    urls:
+    - gragate-0.1.0.tgz
+    version: 0.1.0
+  helm-registry:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.326832743+08:00
+    description: KE Global helm-registry
+    digest: 1f6442a1638cb54544defee113813b3e68a8f89d93fd1d670f6368b02ff0f24e
+    name: helm-registry
+    urls:
+    - helm-registry-0.1.0.tgz
+    version: 0.1.0
   ingress:
   - apiVersion: v1
-    created: 2018-08-20T11:23:19.112982978+08:00
+    created: 2018-08-20T15:31:47.327438874+08:00
     description: global ingress
     digest: 48fde1f138215f2db3032e269ed22e796682f058526d23b6935874907e662164
     name: ingress
     urls:
     - ingress-0.1.0.tgz
     version: 0.1.0
+  ingress_region:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.327865345+08:00
+    description: KE Region ingress_region
+    digest: e76ac14ff41ed0a8a2c67f240e424a1a23d3beff7fc844922e35e270665f6659
+    name: ingress_region
+    urls:
+    - ingress_region-0.1.0.tgz
+    version: 0.1.0
+  keas:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.328507519+08:00
+    description: KE Global keas
+    digest: 1d3af705ae4cd37813539975889f045a0dc04c3fa050fcc24e8b62dcaa4145c5
+    name: keas
+    urls:
+    - keas-0.1.0.tgz
+    version: 0.1.0
+  kecontrol:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.329079109+08:00
+    description: KE Global kecontrol
+    digest: 469fc1d09f8689a760f248b5e4b12b147b986c2086214cef17b839c0c331ca59
+    name: kecontrol
+    urls:
+    - kecontrol-0.1.0.tgz
+    version: 0.1.0
+  kecontrol-authgate:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.330690303+08:00
+    description: KE Global kecontrol-authgate
+    digest: ea17a961099df2df4a35f562d8aa8175eedbc547a143f1901e8685bfc280490a
+    name: kecontrol-authgate
+    urls:
+    - kecontrol-authgate-0.1.0.tgz
+    version: 0.1.0
+  kubegate:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.33132584+08:00
+    description: KE Region kubegate
+    digest: 942844f4ad7f919b87b84e0c6988d54285932d3e130bffe68c2b95c2f78527b5
+    name: kubegate
+    urls:
+    - kubegate-0.1.0.tgz
+    version: 0.1.0
+  logservice:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.331933431+08:00
+    description: KE Region logservice
+    digest: 5ca01d3042b6d702eb529d0416823239200a04db2b5d7b8549a542307af2822e
+    name: logservice
+    urls:
+    - logservice-0.1.0.tgz
+    version: 0.1.0
   memcached:
   - apiVersion: v1
-    created: 2018-08-20T11:23:19.113165945+08:00
+    created: 2018-08-20T15:31:47.332550304+08:00
     description: KE Global memcached
     digest: 01dc9f0a40617568ce5c5025ff5e2a5dca433119c373412869f736b07e376508
     name: memcached
@@ -29,7 +119,7 @@ entries:
     version: 0.1.0
   mongo:
   - apiVersion: v1
-    created: 2018-08-20T11:23:19.113345012+08:00
+    created: 2018-08-20T15:31:47.333177723+08:00
     description: KE Gloabal mongo
     digest: 098c2de10b3c2a1a467a868b95139ba52c0ac5f3dc389392e81361e8dbb2bfea
     name: mongo
@@ -38,28 +128,73 @@ entries:
     version: 0.1.0
   mysql:
   - apiVersion: v1
-    created: 2018-08-20T11:23:19.113589787+08:00
+    created: 2018-08-20T15:31:47.33379103+08:00
     description: KE Global mysql
     digest: e0b73ecf0ac904a00b1dd9d7c6542395644e8fe278fe04afe0e1aa0901ac335c
     name: mysql
     urls:
     - mysql-0.1.0.tgz
     version: 0.1.0
+  portal:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.334474527+08:00
+    description: KE Global portal
+    digest: d08845f2951f5802b6129d6a4121f7d2796145a382e1ff656ea188051ec3e39d
+    name: portal
+    urls:
+    - portal-0.1.0.tgz
+    version: 0.1.0
+  promgate:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.335077276+08:00
+    description: KE Region promgate
+    digest: 5c4ff66c942b2c811456c62b2c7f83943e35e9bebbb2cef015ea8a6f03a10d92
+    name: promgate
+    urls:
+    - promgate-0.1.0.tgz
+    version: 0.1.0
+  registry:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.335714831+08:00
+    description: KE Global registry
+    digest: 5d53fccd78e8a3c751e2a529dd36bd3fac1a99c725f0101d3c71cfdc73910361
+    name: registry
+    urls:
+    - registry-0.1.0.tgz
+    version: 0.1.0
   secret:
   - apiVersion: v1
-    created: 2018-08-20T11:23:19.11391029+08:00
+    created: 2018-08-20T15:31:47.336873864+08:00
     digest: 5ecef9c99a07d3637f2289850138d6357a6bad48b4722aa9372664316af98952
     name: secret
     urls:
     - secret-0.1.0.tgz
     version: 0.1.0
+  stark-hub:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.33801049+08:00
+    description: KE Global stark-hub
+    digest: 303ec066c5ee24c4ab7fd28666bf38cc42a0672daa6c0505a7c1795df032e516
+    name: stark-hub
+    urls:
+    - stark-hub-0.1.0.tgz
+    version: 0.1.0
   stark-redis:
   - apiVersion: v1
-    created: 2018-08-20T11:23:19.114137609+08:00
+    created: 2018-08-20T15:31:47.338513679+08:00
     description: KE Global stark-reids
     digest: 42eb9e766f8a7e054c027995af43582edee2dd9f2e8d2510841b77ea2c7036b4
     name: stark-redis
     urls:
     - stark-redis-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-20T11:23:19.112180339+08:00
+  tlbop:
+  - apiVersion: v1
+    created: 2018-08-20T15:31:47.339105598+08:00
+    description: KE Region tlbop
+    digest: 90eacd0dbaaee3144a2d44a399732dff3b77df87360e545ffb63a61135c0bc37
+    name: tlbop
+    urls:
+    - tlbop-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-08-20T15:31:47.320110608+08:00
