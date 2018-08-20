@@ -1,29 +1,65 @@
 apiVersion: v1
 entries:
+  account:
+  - apiVersion: v1
+    created: 2018-08-20T11:23:19.112738781+08:00
+    description: KE Global account
+    digest: 82516c60ca92b546950148777968345fafea7329714704d78e0943479b86f5cf
+    name: account
+    urls:
+    - account-0.1.0.tgz
+    version: 0.1.0
   ingress:
   - apiVersion: v1
-    created: 2018-08-20T10:04:44.746377693+08:00
+    created: 2018-08-20T11:23:19.112982978+08:00
     description: global ingress
     digest: 48fde1f138215f2db3032e269ed22e796682f058526d23b6935874907e662164
     name: ingress
     urls:
     - ingress-0.1.0.tgz
     version: 0.1.0
+  memcached:
+  - apiVersion: v1
+    created: 2018-08-20T11:23:19.113165945+08:00
+    description: KE Global memcached
+    digest: 01dc9f0a40617568ce5c5025ff5e2a5dca433119c373412869f736b07e376508
+    name: memcached
+    urls:
+    - memcached-0.1.0.tgz
+    version: 0.1.0
+  mongo:
+  - apiVersion: v1
+    created: 2018-08-20T11:23:19.113345012+08:00
+    description: KE Gloabal mongo
+    digest: 098c2de10b3c2a1a467a868b95139ba52c0ac5f3dc389392e81361e8dbb2bfea
+    name: mongo
+    urls:
+    - mongo-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - apiVersion: v1
-    created: 2018-08-20T10:04:44.74683814+08:00
+    created: 2018-08-20T11:23:19.113589787+08:00
     description: KE Global mysql
-    digest: 5ab24077ea643a3835707e9d2c10ffb302d9dc746cb83f53a9687629a078797a
+    digest: e0b73ecf0ac904a00b1dd9d7c6542395644e8fe278fe04afe0e1aa0901ac335c
     name: mysql
     urls:
     - mysql-0.1.0.tgz
     version: 0.1.0
   secret:
   - apiVersion: v1
-    created: 2018-08-20T10:04:44.747697926+08:00
+    created: 2018-08-20T11:23:19.11391029+08:00
     digest: 5ecef9c99a07d3637f2289850138d6357a6bad48b4722aa9372664316af98952
     name: secret
     urls:
     - secret-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-20T10:04:44.744151947+08:00
+  stark-redis:
+  - apiVersion: v1
+    created: 2018-08-20T11:23:19.114137609+08:00
+    description: KE Global stark-reids
+    digest: 42eb9e766f8a7e054c027995af43582edee2dd9f2e8d2510841b77ea2c7036b4
+    name: stark-redis
+    urls:
+    - stark-redis-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-08-20T11:23:19.112180339+08:00
